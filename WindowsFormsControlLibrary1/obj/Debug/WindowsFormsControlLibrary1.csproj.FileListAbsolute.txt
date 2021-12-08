@@ -1,0 +1,6 @@
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\WindowsFormsControlLibrary1\bin\Debug\WindowsFormsControlLibrary1.dll
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\WindowsFormsControlLibrary1\bin\Debug\WindowsFormsControlLibrary1.pdb
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.dll
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.pdb

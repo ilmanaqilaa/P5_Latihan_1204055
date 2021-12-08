@@ -1,0 +1,14 @@
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\bin\Debug\P5_Latihan_1204055.exe.config
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\bin\Debug\P5_Latihan_1204055.exe
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\bin\Debug\P5_Latihan_1204055.pdb
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\obj\Debug\P5_Latihan_1204055.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\obj\Debug\P5_Latihan_1204055.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\obj\Debug\P5_Latihan_1204055.Properties.Resources.resources
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\obj\Debug\P5_Latihan_1204055.csproj.GenerateResource.cache
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\obj\Debug\P5_Latihan_1204055.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\obj\Debug\P5_Latihan_1204055.exe
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\obj\Debug\P5_Latihan_1204055.pdb
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\bin\Debug\WindowsFormsControlLibrary1.dll
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\bin\Debug\WindowsFormsControlLibrary1.pdb
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\obj\Debug\P5_Latihan_1204055.Form1.resources
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas V\P5_Latihan_1204055\obj\Debug\P5_Latihan_1204055.csproj.CopyComplete
