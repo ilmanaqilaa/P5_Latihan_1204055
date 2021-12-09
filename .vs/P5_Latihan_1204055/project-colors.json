@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b6c72a30-292c-48eb-b184-20a9e7593bd4": {
+      "ProjectGuid": "b6c72a30-292c-48eb-b184-20a9e7593bd4",
+      "DisplayName": "P5_Latihan_1204055",
+      "ColorIndex": 0
+    },
+    "5762dd9f-2457-438b-beea-dc0e9863429c": {
+      "ProjectGuid": "5762dd9f-2457-438b-beea-dc0e9863429c",
+      "DisplayName": "WindowsFormsControlLibrary1",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

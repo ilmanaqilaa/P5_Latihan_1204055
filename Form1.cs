@@ -117,7 +117,7 @@ namespace P5_Latihan_1204055
             }
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void tbAkademik_TextChanged(object sender, EventArgs e)
         {
             if (tbAkademik.Text != "")
             {
@@ -134,57 +134,6 @@ namespace P5_Latihan_1204055
             {
                 errorProvider1.SetError(tbAkademik, "Wajib Diisi");
             }
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-            if (rbKur6.Checked)
-            {
-                cbMTK.Enabled = true; cbMTK.Checked = false;
-                cbProg1.Enabled = true; cbProg1.Checked = false;
-                cbProg2.Enabled = true; cbProg2.Checked = false;
-                cbProg3.Enabled = true; cbProg3.Checked = false;
-                cbProg4.Enabled = true; cbProg4.Checked = false;
-                cbProg5.Enabled = true; cbProg5.Checked = false;
-                cbProg6.Enabled = true; cbProg6.Checked = false;
-                cbProg7.Enabled = true; cbProg7.Checked = false;
-                cbPelo.Enabled = true; cbPelo.Checked = false;
-                cbJaringan.Enabled = true; cbJaringan.Checked = false;
-                cbOperasi.Enabled = false; cbOperasi.Checked = false;
-                cbManajemen.Enabled = false; cbManajemen.Checked = false;
-            }
-        }
-
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-            cbMTK.Enabled = false; cbMTK.Checked = false;
-            cbProg1.Enabled = true; cbProg1.Checked = false;
-            cbProg2.Enabled = true; cbProg2.Checked = false;
-            cbProg3.Enabled = true; cbProg3.Checked = false;
-            cbProg4.Enabled = true; cbProg4.Checked = false;
-            cbProg5.Enabled = true; cbProg5.Checked = false;
-            cbProg6.Enabled = true; cbProg6.Checked = false;
-            cbProg7.Enabled = true; cbProg7.Checked = false;
-            cbPelo.Enabled = true; cbPelo.Checked = false;
-            cbJaringan.Enabled = true; cbJaringan.Checked = false;
-            cbOperasi.Enabled = false; cbOperasi.Checked = false;
-            cbManajemen.Enabled = true; cbManajemen.Checked = false;
-        }
-
-        private void radioButton3_CheckedChanged(object sender, EventArgs e)
-        {
-            cbMTK.Enabled = false; cbMTK.Checked = false;
-            cbProg1.Enabled = true; cbProg1.Checked = false;
-            cbProg2.Enabled = true; cbProg2.Checked = false;
-            cbProg3.Enabled = true; cbProg3.Checked = false;
-            cbProg4.Enabled = true; cbProg4.Checked = false;
-            cbProg5.Enabled = true; cbProg5.Checked = false;
-            cbProg6.Enabled = true; cbProg6.Checked = false;
-            cbProg7.Enabled = true; cbProg7.Checked = false;
-            cbPelo.Enabled = true; cbPelo.Checked = false;
-            cbJaringan.Enabled = true; cbJaringan.Checked = false;
-            cbOperasi.Enabled = true; cbOperasi.Checked = false;
-            cbManajemen.Enabled = false; cbManajemen.Checked = false;
         }
 
         private void btSimpan_Click(object sender, EventArgs e)
@@ -312,6 +261,57 @@ namespace P5_Latihan_1204055
                         ("Form telah direset",
                         "Informasi Data Submit",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void rbKur6_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbKur6.Checked)
+            {
+                cbMTK.Enabled = true; cbMTK.Checked = false;
+                cbProg1.Enabled = true; cbProg1.Checked = false;
+                cbProg2.Enabled = true; cbProg2.Checked = false;
+                cbProg3.Enabled = true; cbProg3.Checked = false;
+                cbProg4.Enabled = true; cbProg4.Checked = false;
+                cbProg5.Enabled = true; cbProg5.Checked = false;
+                cbProg6.Enabled = true; cbProg6.Checked = false;
+                cbProg7.Enabled = true; cbProg7.Checked = false;
+                cbPelo.Enabled = true; cbPelo.Checked = false;
+                cbJaringan.Enabled = true; cbJaringan.Checked = false;
+                cbOperasi.Enabled = false; cbOperasi.Checked = false;
+                cbManajemen.Enabled = false; cbManajemen.Checked = false;
+            }
+        }
+
+        private void rbKur10_CheckedChanged(object sender, EventArgs e)
+        {
+            cbMTK.Enabled = false; cbMTK.Checked = false;
+            cbProg1.Enabled = true; cbProg1.Checked = false;
+            cbProg2.Enabled = true; cbProg2.Checked = false;
+            cbProg3.Enabled = true; cbProg3.Checked = false;
+            cbProg4.Enabled = true; cbProg4.Checked = false;
+            cbProg5.Enabled = true; cbProg5.Checked = false;
+            cbProg6.Enabled = true; cbProg6.Checked = false;
+            cbProg7.Enabled = true; cbProg7.Checked = false;
+            cbPelo.Enabled = true; cbPelo.Checked = false;
+            cbJaringan.Enabled = true; cbJaringan.Checked = false;
+            cbOperasi.Enabled = false; cbOperasi.Checked = false;
+            cbManajemen.Enabled = true; cbManajemen.Checked = false;
+        }
+
+        private void rbKur14_CheckedChanged(object sender, EventArgs e)
+        {
+            cbMTK.Enabled = false; cbMTK.Checked = false;
+            cbProg1.Enabled = true; cbProg1.Checked = false;
+            cbProg2.Enabled = true; cbProg2.Checked = false;
+            cbProg3.Enabled = true; cbProg3.Checked = false;
+            cbProg4.Enabled = true; cbProg4.Checked = false;
+            cbProg5.Enabled = true; cbProg5.Checked = false;
+            cbProg6.Enabled = true; cbProg6.Checked = false;
+            cbProg7.Enabled = true; cbProg7.Checked = false;
+            cbPelo.Enabled = true; cbPelo.Checked = false;
+            cbJaringan.Enabled = true; cbJaringan.Checked = false;
+            cbOperasi.Enabled = true; cbOperasi.Checked = false;
+            cbManajemen.Enabled = false; cbManajemen.Checked = false;
         }
     }
 }

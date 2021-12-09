@@ -48,22 +48,22 @@
             this.tbNama = new WindowsFormsControlLibrary1.CharTextBox();
             this.tbSemester = new WindowsFormsControlLibrary1.NumericTextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.rbKur6 = new System.Windows.Forms.RadioButton();
-            this.rbKur10 = new System.Windows.Forms.RadioButton();
             this.rbKur14 = new System.Windows.Forms.RadioButton();
-            this.cbMTK = new System.Windows.Forms.CheckBox();
-            this.cbProg1 = new System.Windows.Forms.CheckBox();
-            this.cbProg2 = new System.Windows.Forms.CheckBox();
-            this.cbProg3 = new System.Windows.Forms.CheckBox();
-            this.cbProg4 = new System.Windows.Forms.CheckBox();
-            this.cbProg5 = new System.Windows.Forms.CheckBox();
-            this.cbProg6 = new System.Windows.Forms.CheckBox();
-            this.cbProg7 = new System.Windows.Forms.CheckBox();
-            this.cbPelo = new System.Windows.Forms.CheckBox();
-            this.cbJaringan = new System.Windows.Forms.CheckBox();
-            this.cbOperasi = new System.Windows.Forms.CheckBox();
+            this.rbKur10 = new System.Windows.Forms.RadioButton();
+            this.rbKur6 = new System.Windows.Forms.RadioButton();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.cbManajemen = new System.Windows.Forms.CheckBox();
+            this.cbOperasi = new System.Windows.Forms.CheckBox();
+            this.cbJaringan = new System.Windows.Forms.CheckBox();
+            this.cbPelo = new System.Windows.Forms.CheckBox();
+            this.cbProg7 = new System.Windows.Forms.CheckBox();
+            this.cbProg6 = new System.Windows.Forms.CheckBox();
+            this.cbProg5 = new System.Windows.Forms.CheckBox();
+            this.cbProg4 = new System.Windows.Forms.CheckBox();
+            this.cbProg3 = new System.Windows.Forms.CheckBox();
+            this.cbProg2 = new System.Windows.Forms.CheckBox();
+            this.cbProg1 = new System.Windows.Forms.CheckBox();
+            this.cbMTK = new System.Windows.Forms.CheckBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.btSimpan = new System.Windows.Forms.Button();
             this.btBatal = new System.Windows.Forms.Button();
@@ -238,6 +238,45 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Kurikulum Pilihan";
             // 
+            // rbKur14
+            // 
+            this.rbKur14.AutoSize = true;
+            this.rbKur14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbKur14.Location = new System.Drawing.Point(61, 122);
+            this.rbKur14.Name = "rbKur14";
+            this.rbKur14.Size = new System.Drawing.Size(98, 17);
+            this.rbKur14.TabIndex = 2;
+            this.rbKur14.TabStop = true;
+            this.rbKur14.Text = "Kurikulum 2014";
+            this.rbKur14.UseVisualStyleBackColor = true;
+            this.rbKur14.CheckedChanged += new System.EventHandler(this.rbKur14_CheckedChanged);
+            // 
+            // rbKur10
+            // 
+            this.rbKur10.AutoSize = true;
+            this.rbKur10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbKur10.Location = new System.Drawing.Point(61, 85);
+            this.rbKur10.Name = "rbKur10";
+            this.rbKur10.Size = new System.Drawing.Size(98, 17);
+            this.rbKur10.TabIndex = 1;
+            this.rbKur10.TabStop = true;
+            this.rbKur10.Text = "Kurikulum 2010";
+            this.rbKur10.UseVisualStyleBackColor = true;
+            this.rbKur10.CheckedChanged += new System.EventHandler(this.rbKur10_CheckedChanged);
+            // 
+            // rbKur6
+            // 
+            this.rbKur6.AutoSize = true;
+            this.rbKur6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbKur6.Location = new System.Drawing.Point(61, 48);
+            this.rbKur6.Name = "rbKur6";
+            this.rbKur6.Size = new System.Drawing.Size(98, 17);
+            this.rbKur6.TabIndex = 0;
+            this.rbKur6.TabStop = true;
+            this.rbKur6.Text = "Kurikulum 2006";
+            this.rbKur6.UseVisualStyleBackColor = true;
+            this.rbKur6.CheckedChanged += new System.EventHandler(this.rbKur6_CheckedChanged);
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.cbManajemen);
@@ -260,151 +299,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Mata Kuliah Pilihan";
             // 
-            // rbKur6
+            // cbManajemen
             // 
-            this.rbKur6.AutoSize = true;
-            this.rbKur6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbKur6.Location = new System.Drawing.Point(61, 48);
-            this.rbKur6.Name = "rbKur6";
-            this.rbKur6.Size = new System.Drawing.Size(98, 17);
-            this.rbKur6.TabIndex = 0;
-            this.rbKur6.TabStop = true;
-            this.rbKur6.Text = "Kurikulum 2006";
-            this.rbKur6.UseVisualStyleBackColor = true;
-            // 
-            // rbKur10
-            // 
-            this.rbKur10.AutoSize = true;
-            this.rbKur10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbKur10.Location = new System.Drawing.Point(61, 85);
-            this.rbKur10.Name = "rbKur10";
-            this.rbKur10.Size = new System.Drawing.Size(98, 17);
-            this.rbKur10.TabIndex = 1;
-            this.rbKur10.TabStop = true;
-            this.rbKur10.Text = "Kurikulum 2010";
-            this.rbKur10.UseVisualStyleBackColor = true;
-            // 
-            // rbKur14
-            // 
-            this.rbKur14.AutoSize = true;
-            this.rbKur14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbKur14.Location = new System.Drawing.Point(61, 122);
-            this.rbKur14.Name = "rbKur14";
-            this.rbKur14.Size = new System.Drawing.Size(98, 17);
-            this.rbKur14.TabIndex = 2;
-            this.rbKur14.TabStop = true;
-            this.rbKur14.Text = "Kurikulum 2014";
-            this.rbKur14.UseVisualStyleBackColor = true;
-            // 
-            // cbMTK
-            // 
-            this.cbMTK.AutoSize = true;
-            this.cbMTK.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbMTK.Location = new System.Drawing.Point(26, 41);
-            this.cbMTK.Name = "cbMTK";
-            this.cbMTK.Size = new System.Drawing.Size(81, 17);
-            this.cbMTK.TabIndex = 0;
-            this.cbMTK.Text = "Matematika";
-            this.cbMTK.UseVisualStyleBackColor = true;
-            // 
-            // cbProg1
-            // 
-            this.cbProg1.AutoSize = true;
-            this.cbProg1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbProg1.Location = new System.Drawing.Point(26, 70);
-            this.cbProg1.Name = "cbProg1";
-            this.cbProg1.Size = new System.Drawing.Size(100, 17);
-            this.cbProg1.TabIndex = 1;
-            this.cbProg1.Text = "Pemrograman 1";
-            this.cbProg1.UseVisualStyleBackColor = true;
-            // 
-            // cbProg2
-            // 
-            this.cbProg2.AutoSize = true;
-            this.cbProg2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbProg2.Location = new System.Drawing.Point(26, 99);
-            this.cbProg2.Name = "cbProg2";
-            this.cbProg2.Size = new System.Drawing.Size(100, 17);
-            this.cbProg2.TabIndex = 2;
-            this.cbProg2.Text = "Pemrograman 2";
-            this.cbProg2.UseVisualStyleBackColor = true;
-            // 
-            // cbProg3
-            // 
-            this.cbProg3.AutoSize = true;
-            this.cbProg3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbProg3.Location = new System.Drawing.Point(26, 128);
-            this.cbProg3.Name = "cbProg3";
-            this.cbProg3.Size = new System.Drawing.Size(100, 17);
-            this.cbProg3.TabIndex = 3;
-            this.cbProg3.Text = "Pemrograman 3";
-            this.cbProg3.UseVisualStyleBackColor = true;
-            // 
-            // cbProg4
-            // 
-            this.cbProg4.AutoSize = true;
-            this.cbProg4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbProg4.Location = new System.Drawing.Point(151, 42);
-            this.cbProg4.Name = "cbProg4";
-            this.cbProg4.Size = new System.Drawing.Size(100, 17);
-            this.cbProg4.TabIndex = 4;
-            this.cbProg4.Text = "Pemrograman 4";
-            this.cbProg4.UseVisualStyleBackColor = true;
-            // 
-            // cbProg5
-            // 
-            this.cbProg5.AutoSize = true;
-            this.cbProg5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbProg5.Location = new System.Drawing.Point(151, 70);
-            this.cbProg5.Name = "cbProg5";
-            this.cbProg5.Size = new System.Drawing.Size(100, 17);
-            this.cbProg5.TabIndex = 5;
-            this.cbProg5.Text = "Pemrograman 5";
-            this.cbProg5.UseVisualStyleBackColor = true;
-            // 
-            // cbProg6
-            // 
-            this.cbProg6.AutoSize = true;
-            this.cbProg6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbProg6.Location = new System.Drawing.Point(151, 99);
-            this.cbProg6.Name = "cbProg6";
-            this.cbProg6.Size = new System.Drawing.Size(100, 17);
-            this.cbProg6.TabIndex = 6;
-            this.cbProg6.Text = "Pemrograman 6";
-            this.cbProg6.UseVisualStyleBackColor = true;
-            // 
-            // cbProg7
-            // 
-            this.cbProg7.AutoSize = true;
-            this.cbProg7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbProg7.Location = new System.Drawing.Point(151, 128);
-            this.cbProg7.Name = "cbProg7";
-            this.cbProg7.Size = new System.Drawing.Size(100, 17);
-            this.cbProg7.TabIndex = 7;
-            this.cbProg7.Text = "Pemrograman 7";
-            this.cbProg7.UseVisualStyleBackColor = true;
-            // 
-            // cbPelo
-            // 
-            this.cbPelo.AutoSize = true;
-            this.cbPelo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbPelo.Location = new System.Drawing.Point(271, 42);
-            this.cbPelo.Name = "cbPelo";
-            this.cbPelo.Size = new System.Drawing.Size(114, 17);
-            this.cbPelo.TabIndex = 8;
-            this.cbPelo.Text = "Pengantar Logistik";
-            this.cbPelo.UseVisualStyleBackColor = true;
-            // 
-            // cbJaringan
-            // 
-            this.cbJaringan.AutoSize = true;
-            this.cbJaringan.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbJaringan.Location = new System.Drawing.Point(271, 70);
-            this.cbJaringan.Name = "cbJaringan";
-            this.cbJaringan.Size = new System.Drawing.Size(123, 17);
-            this.cbJaringan.TabIndex = 9;
-            this.cbJaringan.Text = "Jaringan Komunikasi";
-            this.cbJaringan.UseVisualStyleBackColor = true;
+            this.cbManajemen.AutoSize = true;
+            this.cbManajemen.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbManajemen.Location = new System.Drawing.Point(271, 128);
+            this.cbManajemen.Name = "cbManajemen";
+            this.cbManajemen.Size = new System.Drawing.Size(148, 17);
+            this.cbManajemen.TabIndex = 11;
+            this.cbManajemen.Text = "Manajemen Rantai Pasok";
+            this.cbManajemen.UseVisualStyleBackColor = true;
             // 
             // cbOperasi
             // 
@@ -417,16 +321,115 @@
             this.cbOperasi.Text = "Sistem Operasi";
             this.cbOperasi.UseVisualStyleBackColor = true;
             // 
-            // cbManajemen
+            // cbJaringan
             // 
-            this.cbManajemen.AutoSize = true;
-            this.cbManajemen.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbManajemen.Location = new System.Drawing.Point(271, 128);
-            this.cbManajemen.Name = "cbManajemen";
-            this.cbManajemen.Size = new System.Drawing.Size(148, 17);
-            this.cbManajemen.TabIndex = 11;
-            this.cbManajemen.Text = "Manajemen Rantai Pasok";
-            this.cbManajemen.UseVisualStyleBackColor = true;
+            this.cbJaringan.AutoSize = true;
+            this.cbJaringan.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbJaringan.Location = new System.Drawing.Point(271, 70);
+            this.cbJaringan.Name = "cbJaringan";
+            this.cbJaringan.Size = new System.Drawing.Size(123, 17);
+            this.cbJaringan.TabIndex = 9;
+            this.cbJaringan.Text = "Jaringan Komunikasi";
+            this.cbJaringan.UseVisualStyleBackColor = true;
+            // 
+            // cbPelo
+            // 
+            this.cbPelo.AutoSize = true;
+            this.cbPelo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbPelo.Location = new System.Drawing.Point(271, 42);
+            this.cbPelo.Name = "cbPelo";
+            this.cbPelo.Size = new System.Drawing.Size(114, 17);
+            this.cbPelo.TabIndex = 8;
+            this.cbPelo.Text = "Pengantar Logistik";
+            this.cbPelo.UseVisualStyleBackColor = true;
+            // 
+            // cbProg7
+            // 
+            this.cbProg7.AutoSize = true;
+            this.cbProg7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbProg7.Location = new System.Drawing.Point(151, 128);
+            this.cbProg7.Name = "cbProg7";
+            this.cbProg7.Size = new System.Drawing.Size(100, 17);
+            this.cbProg7.TabIndex = 7;
+            this.cbProg7.Text = "Pemrograman 7";
+            this.cbProg7.UseVisualStyleBackColor = true;
+            // 
+            // cbProg6
+            // 
+            this.cbProg6.AutoSize = true;
+            this.cbProg6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbProg6.Location = new System.Drawing.Point(151, 99);
+            this.cbProg6.Name = "cbProg6";
+            this.cbProg6.Size = new System.Drawing.Size(100, 17);
+            this.cbProg6.TabIndex = 6;
+            this.cbProg6.Text = "Pemrograman 6";
+            this.cbProg6.UseVisualStyleBackColor = true;
+            // 
+            // cbProg5
+            // 
+            this.cbProg5.AutoSize = true;
+            this.cbProg5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbProg5.Location = new System.Drawing.Point(151, 70);
+            this.cbProg5.Name = "cbProg5";
+            this.cbProg5.Size = new System.Drawing.Size(100, 17);
+            this.cbProg5.TabIndex = 5;
+            this.cbProg5.Text = "Pemrograman 5";
+            this.cbProg5.UseVisualStyleBackColor = true;
+            // 
+            // cbProg4
+            // 
+            this.cbProg4.AutoSize = true;
+            this.cbProg4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbProg4.Location = new System.Drawing.Point(151, 42);
+            this.cbProg4.Name = "cbProg4";
+            this.cbProg4.Size = new System.Drawing.Size(100, 17);
+            this.cbProg4.TabIndex = 4;
+            this.cbProg4.Text = "Pemrograman 4";
+            this.cbProg4.UseVisualStyleBackColor = true;
+            // 
+            // cbProg3
+            // 
+            this.cbProg3.AutoSize = true;
+            this.cbProg3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbProg3.Location = new System.Drawing.Point(26, 128);
+            this.cbProg3.Name = "cbProg3";
+            this.cbProg3.Size = new System.Drawing.Size(100, 17);
+            this.cbProg3.TabIndex = 3;
+            this.cbProg3.Text = "Pemrograman 3";
+            this.cbProg3.UseVisualStyleBackColor = true;
+            // 
+            // cbProg2
+            // 
+            this.cbProg2.AutoSize = true;
+            this.cbProg2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbProg2.Location = new System.Drawing.Point(26, 99);
+            this.cbProg2.Name = "cbProg2";
+            this.cbProg2.Size = new System.Drawing.Size(100, 17);
+            this.cbProg2.TabIndex = 2;
+            this.cbProg2.Text = "Pemrograman 2";
+            this.cbProg2.UseVisualStyleBackColor = true;
+            // 
+            // cbProg1
+            // 
+            this.cbProg1.AutoSize = true;
+            this.cbProg1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbProg1.Location = new System.Drawing.Point(26, 70);
+            this.cbProg1.Name = "cbProg1";
+            this.cbProg1.Size = new System.Drawing.Size(100, 17);
+            this.cbProg1.TabIndex = 1;
+            this.cbProg1.Text = "Pemrograman 1";
+            this.cbProg1.UseVisualStyleBackColor = true;
+            // 
+            // cbMTK
+            // 
+            this.cbMTK.AutoSize = true;
+            this.cbMTK.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbMTK.Location = new System.Drawing.Point(26, 41);
+            this.cbMTK.Name = "cbMTK";
+            this.cbMTK.Size = new System.Drawing.Size(81, 17);
+            this.cbMTK.TabIndex = 0;
+            this.cbMTK.Text = "Matematika";
+            this.cbMTK.UseVisualStyleBackColor = true;
             // 
             // errorProvider1
             // 
